@@ -19,7 +19,6 @@ void main() {
 
   setUp(() {
     registerServices();
-    //tearDown(() => locator.reset());
     mockRemoteServices = MockRemoteServices();
     taskProvider = TaskProvider();
   });
@@ -37,8 +36,8 @@ void main() {
       await taskProvider.fetchTasks();
 
       expect(taskProvider.tasks.length, 0);
-     // verify(mockRemoteServices.fetchTasks(limit: 10, skip: 0)).called(1);
-     // verify(LocalStorage.saveTasks(taskList)).called(1);
+      verify(mockRemoteServices.fetchTasks(limit: 10, skip: 0)).called(1);
+      verify(LocalStorage.saveTasks(taskList)).called(1);
     });
 
     test('addTask adds a task and saves them locally', () async {
