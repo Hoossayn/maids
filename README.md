@@ -105,8 +105,8 @@ Unit tests are implemented for various services in the app to ensure their valid
 By following rigorous testing practices, the app aims to maintain a high standard of quality and performance.
 
 ## Improvement that can be made
--  A comprehensive styling can be made to keep app style and feel constant across all screen , like found (here)[https://github.com/Hoossayn/movie_app_flutter/blob/main/lib/app/core/theme/app_theme.dart]
--  Implement app localization like see (here)[https://github.com/Hoossayn/movie_app_flutter/blob/main/lib/l10n/lang/app_en.arb]
+-  A comprehensive styling can be made to keep app style and feel constant across all screen , like found [here](https://github.com/Hoossayn/movie_app_flutter/blob/main/lib/app/core/theme/app_theme.dart)
+-  Implement app localization like see [here](https://github.com/Hoossayn/movie_app_flutter/blob/main/lib/l10n/lang/app_en.arb)
 - Add confirmation dialogs where necessary
 - 
 ---
